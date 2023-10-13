@@ -18,7 +18,7 @@ const initMarvel = async () => {
 };
 
 const getMarvel = async (id) => {
-    let url = `https://gateway.marvel.com:443/v1/public/characters?ts=${timestamp}&apikey=${apiKey}&hash=${hashValue}&nameStartsWith=${input.value}`;
+    let url = `http://gateway.marvel.com/v1/public/comics?apikey=yourAPIKEY&callback=callback_param=${timestamp}&apikey=${apiKey}&hash=${hashValue}&nameStartsWith=${input.value}`;
     let res = await fetch(url)
     let data = await res.json();
     createMarvelBox(data);
