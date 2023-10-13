@@ -68,8 +68,10 @@ button {
 
 }
 .marvel-box img {
-    margin: 10px 0;  
-    width: 60%;
+    margin: 0px 0;  
+    width: 50%;
+    padding: 0rem;
+   
 }
 
 .marvel-box h4 {
@@ -80,3 +82,4 @@ button {
 .marvel-box p {
     margin: 0px 0px;
 }
+
