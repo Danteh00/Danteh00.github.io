@@ -121,3 +121,9 @@ p {
 h2 {
     color: #000000;
 }
+
+a {
+    text-decoration: none;
+    color: #000000;
+
+}
